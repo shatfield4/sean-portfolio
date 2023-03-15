@@ -22,7 +22,7 @@ const TechnologiesCarousel: React.FC = () => {
     const totalWidth = (100 + 25) * technologies.length; // 16px = space-x-8 between images
 
     const duration = totalWidth / carouselWidth * 10; // 10s per carousel width
-    setMarqueeDuration(duration );
+    setMarqueeDuration(duration * 4);
   }, [carouselRef]);
 
   return (
