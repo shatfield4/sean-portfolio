@@ -25,9 +25,6 @@ const Home: NextPage = () => {
 
       <ExperienceHeading />
       <Experience />
-      {/* <Card title={"hello"} description={"this is a description for testing"} buttonText={"Hello"}/>
-      <Card title={"hello"} description={"this is a description for testing"} buttonText={"Hello"}/>
-      <Card title={"hello"} description={"this is a description for testing"} buttonText={"Hello"}/> */}
 
     </div>
   );
