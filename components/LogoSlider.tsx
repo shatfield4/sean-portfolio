@@ -23,7 +23,11 @@ const TechnologiesCarousel: React.FC = () => {
   return (
     <section className="py-16 bg-gray-900">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-white text-center mb-8">My Tech Stack</h2>
+        <div className="text-4xl text-white font-bold leading-tight text-center bg-gray-900">
+          <h1 className="mb-10">
+            My <span className="text-yellow-300">Tech Stack</span>.
+          </h1>
+        </div>
         <Marquee speed={50} gradient={false}>
           {technologies.map((tech, index) => (
             <div key={`first-${index}`} className="flex-shrink-0 px-1">

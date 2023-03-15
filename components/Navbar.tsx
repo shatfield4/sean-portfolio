@@ -99,13 +99,13 @@ const Navbar = () => {
         Projects
       </span>
     </Link>
-    <Link href="/">
+    {/* <Link href="/">
       <span>
       <button onClick={handleClick} className="block text-gray-300 hover:text-white font-medium text-lg cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
         SeanGPT
       </button>
       </span>
-    </Link>
+    </Link> */}
   </div>
 </div>
 
