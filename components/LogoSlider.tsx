@@ -18,9 +18,8 @@ const TechnologiesCarousel: React.FC = () => {
   const [marqueeDuration, setMarqueeDuration] = useState<number>(0);
 
   useEffect(() => {
-    const carouselWidth = carouselRef.current?.offsetWidth ?? 0;
-    const imagesWidth = carouselRef.current?.querySelectorAll('.tech-image')?.[0]?.offsetWidth ?? 0;
-    const totalWidth = (imagesWidth + 25) * technologies.length; // 16px = space-x-8 between images
+    const carouselWidth = (carouselRef.current as HTMLDivElement)?.offsetWidth ?? 0;
+    const totalWidth = (100 + 25) * technologies.length; // 16px = space-x-8 between images
 
     const duration = totalWidth / carouselWidth * 10; // 10s per carousel width
     setMarqueeDuration(duration );
