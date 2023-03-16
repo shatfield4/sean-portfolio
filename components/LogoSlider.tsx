@@ -11,9 +11,9 @@ const technologies = [
   { name: 'Digital Ocean', logo: '/images/technologies/digitalocean-logo.png' },
   { name: 'GoLang', logo: '/images/technologies/golang-logo.svg' },
   { name: 'Node.js', logo: '/images/technologies/nodejs-logo.svg' },
-  { name: 'Cloudflare', logo: '/images/technologies/cloudflare-logo.svg' },
+  { name: 'Github', logo: '/images/technologies/github-logo.svg' },
   { name: 'Ethereum', logo: '/images/technologies/ethereum-logo.svg' },
-  { name: 'Github', logo: '/images/technologies/github-logo.png' },
+  { name: 'Cloudflare', logo: '/images/technologies/cloudflare-logo.svg' },
   { name: 'Python', logo: '/images/technologies/python-logo.svg' },
   { name: 'Solidity', logo: '/images/technologies/solidity-logo.png' },
   // Add more technologies here
@@ -28,7 +28,7 @@ const TechnologiesCarousel: React.FC = () => {
             My <span className="text-yellow-300">Tech Stack</span>.
           </h1>
         </div>
-        <Marquee speed={50} gradient={false}>
+        <Marquee speed={50} gradient={false} >
           {technologies.map((tech, index) => (
             <div key={`first-${index}`} className="flex-shrink-0 px-1">
               <Image
