@@ -10,6 +10,7 @@ import ParticlesBackground from '../components/ParticlesBackground';
 import Card from '../components/Card';
 import ResponsiveCardGrid from '../components/ResponsiveCardGrid';
 import LogoSlider from '../components/LogoSlider';
+import Footer from '../components/Footer';
 
 const Home: NextPage = () => {
   return (
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
 
       <ExperienceHeading />
       <Experience />
+      <Footer />
 
     </div>
   );
