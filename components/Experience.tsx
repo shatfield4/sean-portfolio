@@ -33,10 +33,17 @@ const Experience = () => {
             </time>
             <ul className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                 <li>• Actively worked as a full stack software engineer on various NFT and Cryptocurrency projects during the 2021 NFT/Crypto boom</li>
-                <li>• Built infrastructure that scales to large amounts of users using Digital Ocean Droplets and AWS</li>
+                <li>• Built scalable infrastructure using Digital Ocean Droplets and AWS</li>
+                <li>• Experienced in React, Vue, and NextJS web development frameworks</li>
+                <li>• Built multiple dApps using Web3JS and different web frameworks</li>
+                <li>• Wrote secure and gas efficient Solidity smart contracts for different blockchains (Ethereum, Polygon, Avalanche) managing 8 figures worth of assets</li>
+                <li>• Written APIs in Go (GoLang) for blockchain interaction and web-based front-end display</li>
+                <li>• Developed Discord bots for NFT project analytics</li>
+                <li>• Implemented DNS routing through https using NGINX reverse proxy servers</li>
+                <li>• Developed Web3 scripts in Python and NodeJS for an edge in Crypto markets</li>
             </ul>
             <a
-            href="#"
+            href="/SHatfield-Resume.pdf"
             className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-full hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
             >
             <svg
@@ -51,7 +58,7 @@ const Experience = () => {
                 clipRule="evenodd"
                 />
             </svg>{" "}
-            Download ZIP
+            Download Resume
             </a>
         </li>
         <li className="mb-10 ml-6">
@@ -71,15 +78,19 @@ const Experience = () => {
             </svg>
             </span>
             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            Flowbite Figma v1.3.0
+            First American Title - Associate Software Engineer
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            Released on December 7th, 2021
+            June 2021 - February 2022
             </time>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            All of the pages and components are first designed in Figma and we keep a
-            parity between the two versions even as we update the project.
-            </p>
+            <ul className='mb-4 text-base font-normal text-gray-500 dark:text-gray-400'>
+                <li>• Started as a summer intern and was promoted to Associate Software Engineer after proving my skills</li>
+                <li>• Actively worked to develop bots in Automation Anywhere to automate repetitive tasks that employees at First American would complete manually</li>
+                <li>• Learned the process of code reviews, QA, and smoke testing applications in order to move bots into production</li>
+                <li>• Actively worked with the Production Support team to solve issues that would come up in a day to day basis</li>
+                <li>• Wrote custom C# wrappers for use in Automation Anywhere</li>
+                <li>• Worked closely with Business Analysts to propose and demo new ideas to upper management in order to help solve business sided issues with our bots</li>
+            </ul>
         </li>
         <li className="ml-6">
             <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -98,15 +109,16 @@ const Experience = () => {
             </svg>
             </span>
             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            Flowbite Library v1.2.2
+            Elevate Weekly - Jr. Software Engineer
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            Released on December 2nd, 2021
+            Sept 2020 - Current (Part time)
             </time>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            Get started with dozens of web components and interactive elements built
-            on top of Tailwind CSS.
-            </p>
+            <ul className='mb-4 text-base font-normal text-gray-500 dark:text-gray-400'>
+                <li>• Developing custom Python scripts that interact with Shopify’s API</li>
+                <li>• Writing custom code in HTML and CSS for Shopify stores</li>
+                <li>• Managing large amounts of product data in Shopify stores with custom scripts</li>
+            </ul>
         </li>
         </ol>
         </div>
