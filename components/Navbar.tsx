@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import { FaHome, FaBars } from 'react-icons/fa';
-import { useState } from 'react';
+import Link from "next/link";
+import { FaHome, FaBars } from "react-icons/fa";
+import { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,22 +22,21 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="flex items-center justify-center space-x-4">
-              {/* Add your menu items here */}
-              <Link href="/experience">
+              <a href="#experience">
                 <span className="text-gray-300 hover:text-white font-medium text-lg cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                   Experience
                 </span>
-              </Link>
-              <Link href="/skills">
+              </a>
+              <a href="#skills">
                 <span className="text-gray-300 hover:text-white font-medium text-lg cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                   Skills
                 </span>
-              </Link>
-              <Link href="/projects">
+              </a>
+              <a href="#projects">
                 <span className="text-gray-300 hover:text-white font-medium text-lg cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                   Projects
                 </span>
-              </Link>
+              </a>
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
@@ -49,23 +48,23 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
+        <div className={`${isOpen ? "block" : "hidden"} md:hidden`}>
           <div className="mt-2">
-            <Link href="/experience">
+            <a href="#experience">
               <span className="block px-3 py-2 text-gray-300 hover:text-white font-medium text-lg cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 Experience
               </span>
-            </Link>
-            <Link href="/skills">
+            </a>
+            <a href="#skills">
               <span className="block px-3 py-2 text-gray-300 hover:text-white font-medium text-lg cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 Skills
               </span>
-            </Link>
-            <Link href="/projects">
+            </a>
+            <a href="#projects">
               <span className="block px-3 py-2 text-gray-300 hover:text-white font-medium text-lg cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                  Projects
+                Projects
               </span>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
